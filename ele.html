@@ -10,8 +10,8 @@
 </head>
 <body>
 
-    <script>
-        $(document).ready(function() {
+    <script>                                                                                        //Links to the jquery library in hte <head> tag
+        $(document).ready(function() {              // create structure
             $("html").append(
                 "<body>\
                     <div id ='container'>\
@@ -24,7 +24,7 @@
                     </body>"
             );
             $("#2").css({"color":"red"})
-            $("#3").click(function() {
+            $("#3").click(function() {          // make h1 hide when clicking on h3
                 $('h1').hide();
             });
         });
